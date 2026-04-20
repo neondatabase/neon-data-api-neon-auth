@@ -51,13 +51,19 @@ bun install
 
 Create a `.env` file in the project root:
 
+```bash
+cp .env.example .env
+```
+
+Then, fill in the values based on your Neon Console settings:
+
 ```env
 # Neon Data API URL
-# Find this in Neon Console → Data API page → "Data API URL"
+# Find this in Neon Console → Data API page → "API URL"
 VITE_NEON_DATA_API_URL=https://your-project-id.data-api.neon.tech
 
 # Neon Auth Base URL
-# Find this in Neon Console → Auth page → "Auth Base URL"
+# Find this in Neon Console → Auth → Configuration → "Auth URL"
 VITE_NEON_AUTH_URL=https://your-project-id.auth.neon.tech
 
 # Database Connection String (for migrations)

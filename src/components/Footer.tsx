@@ -10,9 +10,9 @@ export function Footer({ className }: { className?: string }) {
     >
       built with{" "}
       <a
-        href="https://neon.tech/home"
+        href="https://neon.com"
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
         className="underline"
       >
         Neon
